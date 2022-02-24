@@ -1,4 +1,32 @@
 {% extends "base.html" %}
 {% block content %}
-    Page 1
+    </head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <header class="mb-2">
+                <!-- As a link -->
+                <nav class="navbar navbar-dark bg-dark py-3">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <img src="{{ url_for('static', filename='images/logo.png') }}" width="75" height="75"
+                                 class="d-inline-block"></div>
+                        <div class="font25 margin hand navbar-brand">About</div>
+                        <ul class="nav nav-pills darkgray">
+                            <li class="nav-item nav-pills pill-2 nav-link">
+                                <a class="nav-link" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item nav-pills pill-2 nav-link">
+                                <a class="nav-link" aria-current="page" href="/about">About</a>
+                            </li>
+                            <li class="nav-item nav-pills pill-1 nav-link">
+                                <a class="nav-link active" aria-current="page" href="/page1">Gallery</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </body>
+    </head>
 {% endblock %}
