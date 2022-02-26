@@ -3,16 +3,15 @@ name: Run Tests, Build Dockerfile, Run on Heroku
 on:
   push:
     branches:
-      - 'master'
       - 'main'
-      - 'simplepages'
+
     tags:
       - 'v*'
   pull_request:
     branches:
-      - 'master'
+
       - 'main'
-      - 'simplepages'
+
 
 jobs:
   runtest:
