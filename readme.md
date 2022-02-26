@@ -34,7 +34,7 @@
 
 1. To Build with docker compose:
    docker compose up --build
-2. To run tests, Lint, and Coverage report use this command: pytest --pylint --cov
+2. To run tests, Lint, and Coverage report use this command: pytest --pyl:int --cov
 
 .pylintrc is the config for pylint .coveragerc is the config for coverage setup.py is a config file for pytest
 
